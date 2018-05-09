@@ -28,7 +28,7 @@
           </div>
           <div class="col-md-4 mt-5 pb-0" id="nombre-programa-superior-frecuencia">
             <h5 id="nombre-programa-frecuenciaf">Escúchanos en vivo</h5>
-            <a href="http://158.69.118.156:9920/;"><img src="img/BOT_AIRE.png" alt="Al Aire" width="60px" /><img src="img/BOT_PLAY.png" alt="Reproducir" width="35px" /></a>
+            <img src="img/BOT_AIRE.png" alt="Al Aire" width="60px" /><img src="img/BOT_PLAY.png" alt="Reproducir" id="play" width="35px" />
           </div>
         </div>
       </div>
@@ -100,10 +100,31 @@
       </div>
     </footer>
 
+    <audio id="audio-player">
+      <source src="http://158.69.118.156:9920/;" type="audio/mpeg">
+        Tu navegador no es compatible.
+    </audio>
+
     <script src="js/jquery-3.1.1.slim.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
     <script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+      var audio = document.getElementById("audio-player");
+
+      $(document).ready(function() {
+
+        $("#play").click(function() {
+
+          if (audio.paused) {
+            audio.play();
+            document.getElementById("play").src="img/BOT_PAUSE.png";
+          } else {
+            audio.pause();
+            document.getElementById("play").src="img/BOT_PLAY.png";
+          }
+        });
+    </script>
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];

@@ -1,0 +1,72 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  background: url("../img/FONDO_LADOS.png");
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Anton', sans-serif;
+  color: #272E63;
+}
+
+.jumbotron {
+  margin-bottom: 0rem;
+}
+
+#seccion-superior-frecuenciaf {
+  background: url("../img/FONDO_SUPERIOR.png");
+  background-repeat: repeat;
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+#nombre-programa-superior-frecuencia {
+  
+}
+
+.menu {
+  background-color: white;
+}
+
+#menu-principal-frecuenciaf .nav-pills .nav-link {
+  border-radius: 0;
+  background-color: #272E63;
+  color: #FFFFFF;
+  box-shadow: inset 0px -2px 1px 0px rgba(0,0,0,0.75);
+  text-transform: uppercase;
+  font-family: 'Anton', sans-serif;
+}
+
+#menu-principal-frecuenciaf .nav-pills .nav-link.active {
+  background-color: #BBCE12;
+  color: #272E63;
+}
+
+#contenedor-cuerpo-frecuenciaf {
+
+}
+
+#cuerpo-izquierda-frecuenciaf-img, #cuerpo-derecha-frecuenciaf-img {
+  background-color: white;
+}
+
+#cuerpo-izquierda-frecuenciaf-texto {
+  background-color: white;
+  /*max-width: 416px;*/
+  max-height: 498px;
+  overflow-y: auto;
+}
+
+#cuerpo-izquierda-frecuenciaf-texto-img {
+  background-color: white;
+}
+
+
+#footer-frecuenciaf {
+  background: url("../img/FONDO_INFERIOR.png");
+  background-repeat: repeat;
+  padding: 1rem;
+}
+
+#redes-sociales {
+  text-align: center;
+}

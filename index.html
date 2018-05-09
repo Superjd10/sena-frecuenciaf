@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Frecuencia F - Página principal</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Fira+Sans" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="jumbotron" id="seccion-superior-frecuenciaf">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-4 ml-5 pl-5 hidden-sm-down">
+            <img class="pl-5" src="img/logo_superior.png" alt="Frecuencia F" />
+          </div>
+          <div class="col-md-4 hidden-md-up">
+            <img class="img-fluid mx-auto d-block" src="img/logo_superior.png" alt="Frecuencia F" />
+          </div>
+          <div class="col-md-4 mt-5 pb-0" id="nombre-programa-superior-frecuencia">
+            <h4 id="nombre-programa-frecuenciaf">Nombre programa</h4>
+            <img src="img/BOT_AIRE.png" alt="Al Aire" width="60px" /><img src="img/BOT_PLAY.png" alt="Reproducir" width="35px" />
+          </div>
+        </div>
+      </div>
+      <div class="container mb-0">
+        <div class="menu mt-3" id="menu-principal-frecuenciaf">
+          <ul class="nav nav-pills nav-fill flex-column flex-md-row">
+            <li class="nav-item">
+              <a class="nav-link active" href="./">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./programacion.html">Programación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./fblive.html">Facebook Live</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pregrabados.html">Pre Grabados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./nosotros.html">Nosotros</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="body-frecuenciaf">
+
+      <div class="row p-0" id="contenedor-cuerpo-frecuenciaf">
+        <div class="col-md-5 p-0" id="cuerpo-izquierda-frecuenciaf-img">
+          <a href="https://api.whatsapp.com/send?phone=573208449617" title"Escríbenos">
+            <img src="img/costado/INICIO_IZQUIER.png" alt="" class="img-fluid hidden-sm-down" />
+            <img src="img/costado/INICIO_IZQUIER_ANCH.png" alt="" class="img-fluid hidden-md-up" />
+          </a>
+        </div>
+        <div class="col-md-7 p-0" id="cuerpo-derecha-frecuenciaf-img">
+          <img src="img/costado/INICIO_DERECHA_ANCHO.png" alt="" class="img-fluid" />
+       </div>
+      </div>
+
+    </div>
+
+    <footer class="jumbotron pt-3 pb-5" id="footer-frecuenciaf">
+      <div class="container">
+        <div id="redes-sociales">
+          <a href="http://youtube.com" title="YouTube Frecuencia F"><img src="img/redes/Youtube.png" class="youtube"></a>
+          <a href="http://twitter.com" title="Twitter Frecuencia F"><img src="img/redes/Twitter.png" class="twitter"></a>
+          <a href="http://facebook.com" title="Facebook Frecuencia F"><img src="img/redes/Facebook.png" class="facebook"></a>
+          <a href="http://instagram.com" title="Instagram Frecuencia F"><img src="img/redes/Instagram.png" class="instagram"></a>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-3">
+            <img src="img/botones/abajo/BOT_MAS.png" alt="Grupo de Comunicaciones MÁS" />
+          </div>
+          <div class="col-md-3">
+            <img class="mt-3" src="img/botones/abajo/BOT_DONACIONES.png" alt="Donaciones" />
+          </div>
+          <div class="col-md-3">
+            <img class="mt-3" src="img/botones/abajo/BOT_CONTACTO.png" alt="Contacto" />
+          </div>
+          <div class="col-md-3">
+            <img src="img/botones/abajo/BOT_IGLESIA.png" alt="Iglesia Centro Cristiano" width="130px" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat"
+      attribution="setup_tool"
+      page_id="285078435031278"
+      theme_color="#B0CF00"
+      logged_in_greeting="Estás escuchando Frecuencia F. Si deseas solicitar una canción o pedir oración:"
+      logged_out_greeting="Estás escuchando Frecuencia F. Si deseas solicitar una canción o pedir oración:">
+    </div>
+  </body>
+</html>
